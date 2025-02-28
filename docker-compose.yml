@@ -1,0 +1,7 @@
+version: '3.3'
+service:
+  frontend:
+  image: cinin/234-deploylab-frontend:latest
+  pull_policy: always
+  ports:
+    - "8086:81"
